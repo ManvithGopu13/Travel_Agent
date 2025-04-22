@@ -9,7 +9,8 @@ llm = ChatOllama(model = "qwen2.5:7b")
 async def _accomodation(location: str) -> str:
     query = f"Best hostels , dormitories , public restplaces to stay in {location} with pricing and website links."
     results = search.run(query)
-    prompt = f"List good hostels/dorms/dharamasatras or public restplaces in {location} from this {results}\n\n Provide name, type, price per night , location and contact."
-    return llm.invoke(prompt)
+    prompt = f"List good hostels/dorms/dharamasatras or public restplaces in {location} from this {results}\n\n Provide name, type, price per night."
+    output = llm.invoke(prompt)
+    return output.content
 
 accomodation_agent = RunnableLambda(func=_accomodation)

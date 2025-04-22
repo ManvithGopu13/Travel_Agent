@@ -11,8 +11,10 @@ Accommodations: {all_data['accommodation']}
 Transport Info: {all_data['transport']}
 
 Include arrival day, daily plans, lodging suggestions, and travel times.
+Under 200 words.
 """
     
-    return llm.invoke(prompt)
+    output = llm.invoke(prompt)
+    return output.content
 
 iterenary_agent = RunnableLambda(func=_generate_itenerary)

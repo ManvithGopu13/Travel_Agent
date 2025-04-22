@@ -9,7 +9,8 @@ llm = ChatOllama(model = "qwen2.5:7b")
 async def _place_info(location: str) -> str:
     query = f"Top 15 tourist places to isit in {location} with  details like timings, entry fee, and history"
     results = search.run(query)
-    prompt = f"Extract and format tourist info from this search result:\n\n{results}\n\nProvide 15 entries with name, history, timings, and entry fee."
-    return llm.invoke(prompt)
+    prompt = f"Extract and format tourist info from this search result:\n\n{results}\n\nProvide 15 entries with only name."
+    output = llm.invoke(prompt)
+    return output.content
 
 place_info_agent = RunnableLambda(func=_place_info)

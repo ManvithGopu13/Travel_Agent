@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0," />
+            <style>
+                #map_b395d85edb6e0f4db119fe4e92a45db3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b395d85edb6e0f4db119fe4e92a45db3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b395d85edb6e0f4db119fe4e92a45db3 = L.map(
+                "map_b395d85edb6e0f4db119fe4e92a45db3",
+                {
+                    center: [17.3616024, 78.4746421],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_58dcd5dc901bd55ecaf3614a3e6a0351 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_58dcd5dc901bd55ecaf3614a3e6a0351.addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var marker_d0f210cabf4b92468efe86bf7f8ef987 = L.marker(
+                [17.3616024, 78.4746421],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_0e537788ebb794c0553f24139acaeb17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cd875d5e7d8d9e826bc13d0731ab8c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43652bd28943eb65a8d8785ed12c20e0 = $(`<div id="html_43652bd28943eb65a8d8785ed12c20e0" style="width: 100.0%; height: 100.0%;">Charminar.</div>`)[0];
+                popup_7cd875d5e7d8d9e826bc13d0731ab8c8.setContent(html_43652bd28943eb65a8d8785ed12c20e0);
+            
+        
+
+        marker_d0f210cabf4b92468efe86bf7f8ef987.bindPopup(popup_7cd875d5e7d8d9e826bc13d0731ab8c8)
+        ;
+
+        
+    
+    
+            marker_d0f210cabf4b92468efe86bf7f8ef987.bindTooltip(
+                `<div>
+                     Charminar.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d0f210cabf4b92468efe86bf7f8ef987.setIcon(icon_0e537788ebb794c0553f24139acaeb17);
+            
+    
+            var marker_36d1eb8d147c27720b170d79bbe7b6a6 = L.marker(
+                [17.371392, 78.4801498],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_2ad6c0b9843575c5265395731bb47e1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17b55f3af173102d13fbcfea26cec410 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_122a6363f5bfd56c119cc40ec3913c7a = $(`<div id="html_122a6363f5bfd56c119cc40ec3913c7a" style="width: 100.0%; height: 100.0%;">Salar Jung Museum.</div>`)[0];
+                popup_17b55f3af173102d13fbcfea26cec410.setContent(html_122a6363f5bfd56c119cc40ec3913c7a);
+            
+        
+
+        marker_36d1eb8d147c27720b170d79bbe7b6a6.bindPopup(popup_17b55f3af173102d13fbcfea26cec410)
+        ;
+
+        
+    
+    
+            marker_36d1eb8d147c27720b170d79bbe7b6a6.bindTooltip(
+                `<div>
+                     Salar Jung Museum.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36d1eb8d147c27720b170d79bbe7b6a6.setIcon(icon_2ad6c0b9843575c5265395731bb47e1d);
+            
+    
+            var marker_6ac52a3498a031cda430c8481f34fbaa = L.marker(
+                [17.3606599, 78.4736063],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_1dec05c637aa3084c3907d75119f9178 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4fe55b1c8242cc739c781470aa427de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34088fbc85a4bb2ea3c3f6f65a7414a9 = $(`<div id="html_34088fbc85a4bb2ea3c3f6f65a7414a9" style="width: 100.0%; height: 100.0%;">Mecca Masjid.</div>`)[0];
+                popup_c4fe55b1c8242cc739c781470aa427de.setContent(html_34088fbc85a4bb2ea3c3f6f65a7414a9);
+            
+        
+
+        marker_6ac52a3498a031cda430c8481f34fbaa.bindPopup(popup_c4fe55b1c8242cc739c781470aa427de)
+        ;
+
+        
+    
+    
+            marker_6ac52a3498a031cda430c8481f34fbaa.bindTooltip(
+                `<div>
+                     Mecca Masjid.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ac52a3498a031cda430c8481f34fbaa.setIcon(icon_1dec05c637aa3084c3907d75119f9178);
+            
+    
+            var marker_e1a5cdfcd0cdb98cb19c9d698a50aec1 = L.marker(
+                [17.4229112, 78.475421],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_00fe2553cc007b444894430f287ad908 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56621bcb52e845299c7385f5c1c50181 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_459081b06f96a92961e6fbee06b373a5 = $(`<div id="html_459081b06f96a92961e6fbee06b373a5" style="width: 100.0%; height: 100.0%;">Hussain Sagar Lake.</div>`)[0];
+                popup_56621bcb52e845299c7385f5c1c50181.setContent(html_459081b06f96a92961e6fbee06b373a5);
+            
+        
+
+        marker_e1a5cdfcd0cdb98cb19c9d698a50aec1.bindPopup(popup_56621bcb52e845299c7385f5c1c50181)
+        ;
+
+        
+    
+    
+            marker_e1a5cdfcd0cdb98cb19c9d698a50aec1.bindTooltip(
+                `<div>
+                     Hussain Sagar Lake.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1a5cdfcd0cdb98cb19c9d698a50aec1.setIcon(icon_00fe2553cc007b444894430f287ad908);
+            
+    
+            var marker_75aea0b5f637c1bf2ac0d09ff716a1e0 = L.marker(
+                [17.3318413, 78.4658488],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_4cb098bcfd92793b5c6493e118fc6d76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c04e06fa74e644de61896862d118e82d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_470dd80bfd49af737dbd78405f47c0c6 = $(`<div id="html_470dd80bfd49af737dbd78405f47c0c6" style="width: 100.0%; height: 100.0%;">Falaknuma Palace.</div>`)[0];
+                popup_c04e06fa74e644de61896862d118e82d.setContent(html_470dd80bfd49af737dbd78405f47c0c6);
+            
+        
+
+        marker_75aea0b5f637c1bf2ac0d09ff716a1e0.bindPopup(popup_c04e06fa74e644de61896862d118e82d)
+        ;
+
+        
+    
+    
+            marker_75aea0b5f637c1bf2ac0d09ff716a1e0.bindTooltip(
+                `<div>
+                     Falaknuma Palace.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_75aea0b5f637c1bf2ac0d09ff716a1e0.setIcon(icon_4cb098bcfd92793b5c6493e118fc6d76);
+            
+    
+            var marker_df50d70fc53a29e3884bdf8fd2974de2 = L.marker(
+                [17.3886992, 78.4985997],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_d90241425c6bcf42e45e84813ac43228 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03307a1fd1280e976f09558dccb326f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bef644cff30eeeb110b6f4042d483f0 = $(`<div id="html_9bef644cff30eeeb110b6f4042d483f0" style="width: 100.0%; height: 100.0%;">Hyderabad Railway Museum.</div>`)[0];
+                popup_03307a1fd1280e976f09558dccb326f1.setContent(html_9bef644cff30eeeb110b6f4042d483f0);
+            
+        
+
+        marker_df50d70fc53a29e3884bdf8fd2974de2.bindPopup(popup_03307a1fd1280e976f09558dccb326f1)
+        ;
+
+        
+    
+    
+            marker_df50d70fc53a29e3884bdf8fd2974de2.bindTooltip(
+                `<div>
+                     Hyderabad Railway Museum.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_df50d70fc53a29e3884bdf8fd2974de2.setIcon(icon_d90241425c6bcf42e45e84813ac43228);
+            
+    
+            var marker_fdf416800aaa2ba5fd27333f3bb1e957 = L.marker(
+                [17.3833665, 78.4010991],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_c5451e4beecfa21f75a6f6e2fa3205eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c464f5e4e0f0da5e7fa7f2ec02f37a65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13777d9640facfb03edef163d779bbdc = $(`<div id="html_13777d9640facfb03edef163d779bbdc" style="width: 100.0%; height: 100.0%;">Golconda Fort.</div>`)[0];
+                popup_c464f5e4e0f0da5e7fa7f2ec02f37a65.setContent(html_13777d9640facfb03edef163d779bbdc);
+            
+        
+
+        marker_fdf416800aaa2ba5fd27333f3bb1e957.bindPopup(popup_c464f5e4e0f0da5e7fa7f2ec02f37a65)
+        ;
+
+        
+    
+    
+            marker_fdf416800aaa2ba5fd27333f3bb1e957.bindTooltip(
+                `<div>
+                     Golconda Fort.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fdf416800aaa2ba5fd27333f3bb1e957.setIcon(icon_c5451e4beecfa21f75a6f6e2fa3205eb);
+            
+    
+            var marker_27eec66ac0631cac1a001bf780ffe3b0 = L.marker(
+                [17.409892, 78.47292],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_2b873e16224fa2641e333e88f16ccba0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40ae685f67d4251f13fa4e86daa0e878 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d78704ec0232fccfd6d45fb1b1ff27a8 = $(`<div id="html_d78704ec0232fccfd6d45fb1b1ff27a8" style="width: 100.0%; height: 100.0%;">Lumbini Park.</div>`)[0];
+                popup_40ae685f67d4251f13fa4e86daa0e878.setContent(html_d78704ec0232fccfd6d45fb1b1ff27a8);
+            
+        
+
+        marker_27eec66ac0631cac1a001bf780ffe3b0.bindPopup(popup_40ae685f67d4251f13fa4e86daa0e878)
+        ;
+
+        
+    
+    
+            marker_27eec66ac0631cac1a001bf780ffe3b0.bindTooltip(
+                `<div>
+                     Lumbini Park.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_27eec66ac0631cac1a001bf780ffe3b0.setIcon(icon_2b873e16224fa2641e333e88f16ccba0);
+            
+    
+            var marker_aaa799ff6eb598bfd8cdd96aa7bfc1d5 = L.marker(
+                [17.3845613, 78.4750497],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_44726bf86515a35949a31a110e0b181d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36a1d8afb5c942ddfc77a30378200581 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4875733e779de86550fe943adfa95677 = $(`<div id="html_4875733e779de86550fe943adfa95677" style="width: 100.0%; height: 100.0%;">Koti Clock Tower.</div>`)[0];
+                popup_36a1d8afb5c942ddfc77a30378200581.setContent(html_4875733e779de86550fe943adfa95677);
+            
+        
+
+        marker_aaa799ff6eb598bfd8cdd96aa7bfc1d5.bindPopup(popup_36a1d8afb5c942ddfc77a30378200581)
+        ;
+
+        
+    
+    
+            marker_aaa799ff6eb598bfd8cdd96aa7bfc1d5.bindTooltip(
+                `<div>
+                     Koti Clock Tower.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aaa799ff6eb598bfd8cdd96aa7bfc1d5.setIcon(icon_44726bf86515a35949a31a110e0b181d);
+            
+    
+            var marker_4d682c62457a14a816362720aba15f99 = L.marker(
+                [22.530487, 88.3649562],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_fb6315d7a83fff232aeeed77e9bf7715 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a857db3d8aebd573f364d08ab615ca1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9745a439a9e5c01dc573881735930e0 = $(`<div id="html_d9745a439a9e5c01dc573881735930e0" style="width: 100.0%; height: 100.0%;">Birla Mandir.</div>`)[0];
+                popup_0a857db3d8aebd573f364d08ab615ca1.setContent(html_d9745a439a9e5c01dc573881735930e0);
+            
+        
+
+        marker_4d682c62457a14a816362720aba15f99.bindPopup(popup_0a857db3d8aebd573f364d08ab615ca1)
+        ;
+
+        
+    
+    
+            marker_4d682c62457a14a816362720aba15f99.bindTooltip(
+                `<div>
+                     Birla Mandir.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4d682c62457a14a816362720aba15f99.setIcon(icon_fb6315d7a83fff232aeeed77e9bf7715);
+            
+    
+            var marker_c622267b9132ceb0b66bbe5df51fd52a = L.marker(
+                [17.3848917, 78.4759687],
+                {
+}
+            ).addTo(map_b395d85edb6e0f4db119fe4e92a45db3);
+        
+    
+            var icon_4ad24e0aebcf4777fb3eb2be30203817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ae71b76aa6fc4a3dfa2b7db1588bdaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb7e27ac27a8bfb32d993c08bab35a4f = $(`<div id="html_cb7e27ac27a8bfb32d993c08bab35a4f" style="width: 100.0%; height: 100.0%;">Abids Market.</div>`)[0];
+                popup_2ae71b76aa6fc4a3dfa2b7db1588bdaf.setContent(html_cb7e27ac27a8bfb32d993c08bab35a4f);
+            
+        
+
+        marker_c622267b9132ceb0b66bbe5df51fd52a.bindPopup(popup_2ae71b76aa6fc4a3dfa2b7db1588bdaf)
+        ;
+
+        
+    
+    
+            marker_c622267b9132ceb0b66bbe5df51fd52a.bindTooltip(
+                `<div>
+                     Abids Market.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c622267b9132ceb0b66bbe5df51fd52a.setIcon(icon_4ad24e0aebcf4777fb3eb2be30203817);
+            
+</script>
+</html>
