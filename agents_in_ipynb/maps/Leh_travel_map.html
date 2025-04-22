@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0" />
+            <style>
+                #map_6ebf51477474ce514780cc68f14bdb49 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6ebf51477474ce514780cc68f14bdb49" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6ebf51477474ce514780cc68f14bdb49 = L.map(
+                "map_6ebf51477474ce514780cc68f14bdb49",
+                {
+                    center: [34.1660632, 77.5865412],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e4c4fad6986eadafee67ad542e89088 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4e4c4fad6986eadafee67ad542e89088.addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var marker_5c4483cb7a6b9b7767571f45e8df4b50 = L.marker(
+                [34.1660632, 77.5865412],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_8694a8308d48d4f4531e25c4e10b8828 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9844d1ad4953c8b6a8a1b6c6c2d4dd10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cee19f61b86d7852d4689dc5645a3136 = $(`<div id="html_cee19f61b86d7852d4689dc5645a3136" style="width: 100.0%; height: 100.0%;">Leh Palace.</div>`)[0];
+                popup_9844d1ad4953c8b6a8a1b6c6c2d4dd10.setContent(html_cee19f61b86d7852d4689dc5645a3136);
+            
+        
+
+        marker_5c4483cb7a6b9b7767571f45e8df4b50.bindPopup(popup_9844d1ad4953c8b6a8a1b6c6c2d4dd10)
+        ;
+
+        
+    
+    
+            marker_5c4483cb7a6b9b7767571f45e8df4b50.bindTooltip(
+                `<div>
+                     Leh Palace.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5c4483cb7a6b9b7767571f45e8df4b50.setIcon(icon_8694a8308d48d4f4531e25c4e10b8828);
+            
+    
+            var marker_c957ef3cfe918548dd99a1fcdb855d6f = L.marker(
+                [34.282897, 76.7741597],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_810f3471a35ecde36525af821b4e0e23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d05a5f44b58a7b18199c5474f49359b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2d7f29834163fc2655decfd540fbaed = $(`<div id="html_c2d7f29834163fc2655decfd540fbaed" style="width: 100.0%; height: 100.0%;">Lamayuru Monastery.</div>`)[0];
+                popup_d05a5f44b58a7b18199c5474f49359b9.setContent(html_c2d7f29834163fc2655decfd540fbaed);
+            
+        
+
+        marker_c957ef3cfe918548dd99a1fcdb855d6f.bindPopup(popup_d05a5f44b58a7b18199c5474f49359b9)
+        ;
+
+        
+    
+    
+            marker_c957ef3cfe918548dd99a1fcdb855d6f.bindTooltip(
+                `<div>
+                     Lamayuru Monastery.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c957ef3cfe918548dd99a1fcdb855d6f.setIcon(icon_810f3471a35ecde36525af821b4e0e23);
+            
+    
+            var marker_3ebadb680022cdcd2259ceb7d92ce366 = L.marker(
+                [22.5065184, 88.3489408],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_93214fd07cf52e2c253c840c7802f1c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb282caf9577aaba1d63312c7c1f18c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2115a886543d6d1fd0d4fe6d505053c = $(`<div id="html_a2115a886543d6d1fd0d4fe6d505053c" style="width: 100.0%; height: 100.0%;">Santosh Lake.</div>`)[0];
+                popup_cb282caf9577aaba1d63312c7c1f18c5.setContent(html_a2115a886543d6d1fd0d4fe6d505053c);
+            
+        
+
+        marker_3ebadb680022cdcd2259ceb7d92ce366.bindPopup(popup_cb282caf9577aaba1d63312c7c1f18c5)
+        ;
+
+        
+    
+    
+            marker_3ebadb680022cdcd2259ceb7d92ce366.bindTooltip(
+                `<div>
+                     Santosh Lake.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ebadb680022cdcd2259ceb7d92ce366.setIcon(icon_93214fd07cf52e2c253c840c7802f1c1);
+            
+    
+            var marker_acde2a84c5717579ff840d4669643834 = L.marker(
+                [32.3260996, 76.2733178],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_7ba648312a8fa765e90104d21ebf811b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1baf2b3fb2a2bb76a448eac4e79e0849 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10a4a4ed373d083ea93885c113afa3c6 = $(`<div id="html_10a4a4ed373d083ea93885c113afa3c6" style="width: 100.0%; height: 100.0%;">Kareri Lake.</div>`)[0];
+                popup_1baf2b3fb2a2bb76a448eac4e79e0849.setContent(html_10a4a4ed373d083ea93885c113afa3c6);
+            
+        
+
+        marker_acde2a84c5717579ff840d4669643834.bindPopup(popup_1baf2b3fb2a2bb76a448eac4e79e0849)
+        ;
+
+        
+    
+    
+            marker_acde2a84c5717579ff840d4669643834.bindTooltip(
+                `<div>
+                     Kareri Lake.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_acde2a84c5717579ff840d4669643834.setIcon(icon_7ba648312a8fa765e90104d21ebf811b);
+            
+    
+            var marker_a744f0d40da5e70ea7774b958c5fc3b6 = L.marker(
+                [33.706991, 78.8208363],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_ad5e82cc2bef4846277066654fbd59d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_051e63dc3e2d98eb9a2ebccdd4462b70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf34f6a85c7fdaa88a81f919347c845b = $(`<div id="html_cf34f6a85c7fdaa88a81f919347c845b" style="width: 100.0%; height: 100.0%;">Pangong Tso.</div>`)[0];
+                popup_051e63dc3e2d98eb9a2ebccdd4462b70.setContent(html_cf34f6a85c7fdaa88a81f919347c845b);
+            
+        
+
+        marker_a744f0d40da5e70ea7774b958c5fc3b6.bindPopup(popup_051e63dc3e2d98eb9a2ebccdd4462b70)
+        ;
+
+        
+    
+    
+            marker_a744f0d40da5e70ea7774b958c5fc3b6.bindTooltip(
+                `<div>
+                     Pangong Tso.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a744f0d40da5e70ea7774b958c5fc3b6.setIcon(icon_ad5e82cc2bef4846277066654fbd59d5);
+            
+    
+            var marker_753845ad52c3264960dc8e06db4eede4 = L.marker(
+                [34.2788524, 77.8510887],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_8112e9a1d7e205bdb44c08f0de8a8da3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79e53b3eb1188e2e1e98902e67d282b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb3c97d25582c5f82b784c7fcb062c8d = $(`<div id="html_eb3c97d25582c5f82b784c7fcb062c8d" style="width: 100.0%; height: 100.0%;">Nubra Valley.</div>`)[0];
+                popup_79e53b3eb1188e2e1e98902e67d282b8.setContent(html_eb3c97d25582c5f82b784c7fcb062c8d);
+            
+        
+
+        marker_753845ad52c3264960dc8e06db4eede4.bindPopup(popup_79e53b3eb1188e2e1e98902e67d282b8)
+        ;
+
+        
+    
+    
+            marker_753845ad52c3264960dc8e06db4eede4.bindTooltip(
+                `<div>
+                     Nubra Valley.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_753845ad52c3264960dc8e06db4eede4.setIcon(icon_8112e9a1d7e205bdb44c08f0de8a8da3);
+            
+    
+            var marker_43ea553e1bababc6b5b5a1f60a4eabc9 = L.marker(
+                [34.0716174, 77.632758],
+                {
+}
+            ).addTo(map_6ebf51477474ce514780cc68f14bdb49);
+        
+    
+            var icon_a837f380ec5eb8d3e3f48d3a714180d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b72823033136dd9fcd70f58012c22f2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f46caf1cb2198b4c03d7787ffb5a7d2 = $(`<div id="html_7f46caf1cb2198b4c03d7787ffb5a7d2" style="width: 100.0%; height: 100.0%;">Shey Palace.</div>`)[0];
+                popup_b72823033136dd9fcd70f58012c22f2b.setContent(html_7f46caf1cb2198b4c03d7787ffb5a7d2);
+            
+        
+
+        marker_43ea553e1bababc6b5b5a1f60a4eabc9.bindPopup(popup_b72823033136dd9fcd70f58012c22f2b)
+        ;
+
+        
+    
+    
+            marker_43ea553e1bababc6b5b5a1f60a4eabc9.bindTooltip(
+                `<div>
+                     Shey Palace.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43ea553e1bababc6b5b5a1f60a4eabc9.setIcon(icon_a837f380ec5eb8d3e3f48d3a714180d5);
+            
+</script>
+</html>

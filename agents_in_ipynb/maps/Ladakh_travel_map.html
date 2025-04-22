@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0," />
+            <style>
+                #map_49970995e28702107e2398d4fe9d39f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_49970995e28702107e2398d4fe9d39f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49970995e28702107e2398d4fe9d39f1 = L.map(
+                "map_49970995e28702107e2398d4fe9d39f1",
+                {
+                    center: [34.208957, 76.888466],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aacca419a4758ec1f43a48e315f3918b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_aacca419a4758ec1f43a48e315f3918b.addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var marker_c48195f3124aa9d733581603b721d27c = L.marker(
+                [34.208957, 76.888466],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_78b412fc58bd2a6a977cc0c860a44722 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b85492148ea085d2276fe84cc0d0778 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89125ff40a353c1f63df3fad9dbb44c4 = $(`<div id="html_89125ff40a353c1f63df3fad9dbb44c4" style="width: 100.0%; height: 100.0%;">1. Pangong Lake</div>`)[0];
+                popup_0b85492148ea085d2276fe84cc0d0778.setContent(html_89125ff40a353c1f63df3fad9dbb44c4);
+            
+        
+
+        marker_c48195f3124aa9d733581603b721d27c.bindPopup(popup_0b85492148ea085d2276fe84cc0d0778)
+        ;
+
+        
+    
+    
+            marker_c48195f3124aa9d733581603b721d27c.bindTooltip(
+                `<div>
+                     1. Pangong Lake
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c48195f3124aa9d733581603b721d27c.setIcon(icon_78b412fc58bd2a6a977cc0c860a44722);
+            
+    
+            var marker_c0f558b4b33161ae3a5d8e2a8746c900 = L.marker(
+                [34.908978, 75.888319],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_b150a29559c68436a716f0ebcacc7634 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7710b8b6ec7ca98c6b8c2ad302d4d835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d52698cf180db5b99b23d078d819cc5 = $(`<div id="html_8d52698cf180db5b99b23d078d819cc5" style="width: 100.0%; height: 100.0%;">2. Nubra Valley</div>`)[0];
+                popup_7710b8b6ec7ca98c6b8c2ad302d4d835.setContent(html_8d52698cf180db5b99b23d078d819cc5);
+            
+        
+
+        marker_c0f558b4b33161ae3a5d8e2a8746c900.bindPopup(popup_7710b8b6ec7ca98c6b8c2ad302d4d835)
+        ;
+
+        
+    
+    
+            marker_c0f558b4b33161ae3a5d8e2a8746c900.bindTooltip(
+                `<div>
+                     2. Nubra Valley
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0f558b4b33161ae3a5d8e2a8746c900.setIcon(icon_b150a29559c68436a716f0ebcacc7634);
+            
+    
+            var marker_ad301f074962aeba2492139e5cd644af = L.marker(
+                [33.644163, 80.125544],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_f1a6bf5ca6eaaa8da2747300c5cd4665 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c559d4e8f0cf9fe50bb967d05bce55a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c18534a1d45c0ba7735af9d66337ef67 = $(`<div id="html_c18534a1d45c0ba7735af9d66337ef67" style="width: 100.0%; height: 100.0%;">3. Hemis Monastery</div>`)[0];
+                popup_c559d4e8f0cf9fe50bb967d05bce55a9.setContent(html_c18534a1d45c0ba7735af9d66337ef67);
+            
+        
+
+        marker_ad301f074962aeba2492139e5cd644af.bindPopup(popup_c559d4e8f0cf9fe50bb967d05bce55a9)
+        ;
+
+        
+    
+    
+            marker_ad301f074962aeba2492139e5cd644af.bindTooltip(
+                `<div>
+                     3. Hemis Monastery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad301f074962aeba2492139e5cd644af.setIcon(icon_f1a6bf5ca6eaaa8da2747300c5cd4665);
+            
+    
+            var marker_feeea6e92752e0a2f2a9b8693dedabaf = L.marker(
+                [33.668811, 80.096781],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_4c0c350864c44e26941c0f38c3e1edcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e46d1bef29faf968faba47517884dc44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f0cd1316f015de34b6699b35a496b23 = $(`<div id="html_7f0cd1316f015de34b6699b35a496b23" style="width: 100.0%; height: 100.0%;">4. Stakna Monastery</div>`)[0];
+                popup_e46d1bef29faf968faba47517884dc44.setContent(html_7f0cd1316f015de34b6699b35a496b23);
+            
+        
+
+        marker_feeea6e92752e0a2f2a9b8693dedabaf.bindPopup(popup_e46d1bef29faf968faba47517884dc44)
+        ;
+
+        
+    
+    
+            marker_feeea6e92752e0a2f2a9b8693dedabaf.bindTooltip(
+                `<div>
+                     4. Stakna Monastery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_feeea6e92752e0a2f2a9b8693dedabaf.setIcon(icon_4c0c350864c44e26941c0f38c3e1edcd);
+            
+    
+            var marker_80d7333dba12ae40903037e150b1a5d9 = L.marker(
+                [33.641221, 80.120828],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_4afaf78247c0417f6b12622931a89d4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ca296540d9999645537b6249c3a3252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_350342107bbaaf3c31d16df059ce6bf9 = $(`<div id="html_350342107bbaaf3c31d16df059ce6bf9" style="width: 100.0%; height: 100.0%;">5. Mindrolling Monastery</div>`)[0];
+                popup_2ca296540d9999645537b6249c3a3252.setContent(html_350342107bbaaf3c31d16df059ce6bf9);
+            
+        
+
+        marker_80d7333dba12ae40903037e150b1a5d9.bindPopup(popup_2ca296540d9999645537b6249c3a3252)
+        ;
+
+        
+    
+    
+            marker_80d7333dba12ae40903037e150b1a5d9.bindTooltip(
+                `<div>
+                     5. Mindrolling Monastery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_80d7333dba12ae40903037e150b1a5d9.setIcon(icon_4afaf78247c0417f6b12622931a89d4f);
+            
+    
+            var marker_ec2dd901800b4dcc8161f9c0ee94707b = L.marker(
+                [33.664351, 80.114429],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_2415148d6b94eb48dfa838cc3e5e6bf2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_791e4786048e5a8e7aaa793ffa8fb534 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba8d25a1fdd6ca755918fc91bb5a4a25 = $(`<div id="html_ba8d25a1fdd6ca755918fc91bb5a4a25" style="width: 100.0%; height: 100.0%;">6. Shante Rugs and Handicrafts</div>`)[0];
+                popup_791e4786048e5a8e7aaa793ffa8fb534.setContent(html_ba8d25a1fdd6ca755918fc91bb5a4a25);
+            
+        
+
+        marker_ec2dd901800b4dcc8161f9c0ee94707b.bindPopup(popup_791e4786048e5a8e7aaa793ffa8fb534)
+        ;
+
+        
+    
+    
+            marker_ec2dd901800b4dcc8161f9c0ee94707b.bindTooltip(
+                `<div>
+                     6. Shante Rugs and Handicrafts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec2dd901800b4dcc8161f9c0ee94707b.setIcon(icon_2415148d6b94eb48dfa838cc3e5e6bf2);
+            
+    
+            var marker_48068f6a7c53fb863c20234a6b570061 = L.marker(
+                [33.640825, 80.094383],
+                {
+}
+            ).addTo(map_49970995e28702107e2398d4fe9d39f1);
+        
+    
+            var icon_de0265e9e94c9e6cd23337457c108d59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53c2464cecf39ebb44796e0c802e9bb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ae9a1844fedb4ebf0e83f2a9694a458 = $(`<div id="html_2ae9a1844fedb4ebf0e83f2a9694a458" style="width: 100.0%; height: 100.0%;">7. Alchi Monastery</div>`)[0];
+                popup_53c2464cecf39ebb44796e0c802e9bb9.setContent(html_2ae9a1844fedb4ebf0e83f2a9694a458);
+            
+        
+
+        marker_48068f6a7c53fb863c20234a6b570061.bindPopup(popup_53c2464cecf39ebb44796e0c802e9bb9)
+        ;
+
+        
+    
+    
+            marker_48068f6a7c53fb863c20234a6b570061.bindTooltip(
+                `<div>
+                     7. Alchi Monastery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_48068f6a7c53fb863c20234a6b570061.setIcon(icon_de0265e9e94c9e6cd23337457c108d59);
+            
+</script>
+</html>
