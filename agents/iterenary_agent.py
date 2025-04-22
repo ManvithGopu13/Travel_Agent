@@ -4,7 +4,7 @@ from langchain.schema.runnable import RunnableLambda
 llm = ChatOllama(model = "qwen2.5:7b")
 
 async def _generate_itenerary(all_data: dict) -> str:
-    prompt = f"""Based on the following travel information, generate a 3-5 day travel itinerary:
+    prompt = f"""Based on the following travel information, generate a 4-5 day travel itinerary covering most of the places:
 
 Tourist Places: {all_data['place_info']}
 Accommodations: {all_data['accommodation']}

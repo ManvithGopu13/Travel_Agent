@@ -15,7 +15,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def location_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     location = update.message.text
     response = await handle_location_query(location)
-    await update.message.reply_text(response[:4000])
+    await update.message.reply_text(response[:4050])
 
 
 app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()

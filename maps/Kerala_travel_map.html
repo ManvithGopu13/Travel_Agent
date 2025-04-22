@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0," />
+            <style>
+                #map_2c921e9a3648ede3afd28c5bb52d4013 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c921e9a3648ede3afd28c5bb52d4013" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c921e9a3648ede3afd28c5bb52d4013 = L.map(
+                "map_2c921e9a3648ede3afd28c5bb52d4013",
+                {
+                    center: [10.5270099, 76.214621],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d68cd7dd71239a5f816e346ec1560fef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d68cd7dd71239a5f816e346ec1560fef.addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var marker_20b5b58cdbcab8903353bdcdb3db0549 = L.marker(
+                [10.5270099, 76.214621],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_5720da3ec80f45551fdac0d77c844c11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4835b591f5cf1bfb842585651df6839 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac2530bf80d2d3d2e15835208cdedd2c = $(`<div id="html_ac2530bf80d2d3d2e15835208cdedd2c" style="width: 100.0%; height: 100.0%;">Thrissur </div>`)[0];
+                popup_f4835b591f5cf1bfb842585651df6839.setContent(html_ac2530bf80d2d3d2e15835208cdedd2c);
+            
+        
+
+        marker_20b5b58cdbcab8903353bdcdb3db0549.bindPopup(popup_f4835b591f5cf1bfb842585651df6839)
+        ;
+
+        
+    
+    
+            marker_20b5b58cdbcab8903353bdcdb3db0549.bindTooltip(
+                `<div>
+                     Thrissur 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20b5b58cdbcab8903353bdcdb3db0549.setIcon(icon_5720da3ec80f45551fdac0d77c844c11);
+            
+    
+            var marker_6603baab780a056b3af5dd2cc058ff2d = L.marker(
+                [9.9837257, 76.2740001],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_e115fe6b907c5074364a1a805f0337f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3a0aed642d56b04383ed1bbc988c236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fce835f76a301c685ca073c39595636 = $(`<div id="html_5fce835f76a301c685ca073c39595636" style="width: 100.0%; height: 100.0%;">Ernakulam </div>`)[0];
+                popup_c3a0aed642d56b04383ed1bbc988c236.setContent(html_5fce835f76a301c685ca073c39595636);
+            
+        
+
+        marker_6603baab780a056b3af5dd2cc058ff2d.bindPopup(popup_c3a0aed642d56b04383ed1bbc988c236)
+        ;
+
+        
+    
+    
+            marker_6603baab780a056b3af5dd2cc058ff2d.bindTooltip(
+                `<div>
+                     Ernakulam 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6603baab780a056b3af5dd2cc058ff2d.setIcon(icon_e115fe6b907c5074364a1a805f0337f9);
+            
+    
+            var marker_0ab89682550d09b279b90b6d072b96dd = L.marker(
+                [9.9679032, 76.2444378],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_652f26dfef8e5c0a15805eac0fe77691 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5059a90d95f5935d4b1ad580ab5c7b1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a96c77b1cb1765c8e7228b04d8b02455 = $(`<div id="html_a96c77b1cb1765c8e7228b04d8b02455" style="width: 100.0%; height: 100.0%;">Kochi </div>`)[0];
+                popup_5059a90d95f5935d4b1ad580ab5c7b1b.setContent(html_a96c77b1cb1765c8e7228b04d8b02455);
+            
+        
+
+        marker_0ab89682550d09b279b90b6d072b96dd.bindPopup(popup_5059a90d95f5935d4b1ad580ab5c7b1b)
+        ;
+
+        
+    
+    
+            marker_0ab89682550d09b279b90b6d072b96dd.bindTooltip(
+                `<div>
+                     Kochi 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ab89682550d09b279b90b6d072b96dd.setIcon(icon_652f26dfef8e5c0a15805eac0fe77691);
+            
+    
+            var marker_2fb617208da0c6adcbb4353c0a1e96ff = L.marker(
+                [9.5006651, 76.4124143],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_a12631275f4266526f1d95c6f4eaf7ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab1b0eda4275775428a138ac8583fbda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa31f7f6bf4bc44e99406c719479332e = $(`<div id="html_fa31f7f6bf4bc44e99406c719479332e" style="width: 100.0%; height: 100.0%;">Alappuzha </div>`)[0];
+                popup_ab1b0eda4275775428a138ac8583fbda.setContent(html_fa31f7f6bf4bc44e99406c719479332e);
+            
+        
+
+        marker_2fb617208da0c6adcbb4353c0a1e96ff.bindPopup(popup_ab1b0eda4275775428a138ac8583fbda)
+        ;
+
+        
+    
+    
+            marker_2fb617208da0c6adcbb4353c0a1e96ff.bindTooltip(
+                `<div>
+                     Alappuzha 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2fb617208da0c6adcbb4353c0a1e96ff.setIcon(icon_a12631275f4266526f1d95c6f4eaf7ab);
+            
+    
+            var marker_39edd0dec7f3ac60a884553207daf7fb = L.marker(
+                [8.8870815, 76.5907017],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_1c45bf6f8825fdd4954cfa432ac847c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da8492010c1ab909e1f3cf46b79be70f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b29921ddf4816b9dd4acf47a0edc460d = $(`<div id="html_b29921ddf4816b9dd4acf47a0edc460d" style="width: 100.0%; height: 100.0%;">Kollam </div>`)[0];
+                popup_da8492010c1ab909e1f3cf46b79be70f.setContent(html_b29921ddf4816b9dd4acf47a0edc460d);
+            
+        
+
+        marker_39edd0dec7f3ac60a884553207daf7fb.bindPopup(popup_da8492010c1ab909e1f3cf46b79be70f)
+        ;
+
+        
+    
+    
+            marker_39edd0dec7f3ac60a884553207daf7fb.bindTooltip(
+                `<div>
+                     Kollam 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_39edd0dec7f3ac60a884553207daf7fb.setIcon(icon_1c45bf6f8825fdd4954cfa432ac847c0);
+            
+    
+            var marker_707c0965563a93129bc4702e9084cd32 = L.marker(
+                [11.2450558, 75.7754716],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_4e3f4914d06615861858c250db6f5a5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18ef90676e52ec022f7ba18515dfe5f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05d660d264e6296882a9d6679dd7509a = $(`<div id="html_05d660d264e6296882a9d6679dd7509a" style="width: 100.0%; height: 100.0%;">Kozhikode </div>`)[0];
+                popup_18ef90676e52ec022f7ba18515dfe5f9.setContent(html_05d660d264e6296882a9d6679dd7509a);
+            
+        
+
+        marker_707c0965563a93129bc4702e9084cd32.bindPopup(popup_18ef90676e52ec022f7ba18515dfe5f9)
+        ;
+
+        
+    
+    
+            marker_707c0965563a93129bc4702e9084cd32.bindTooltip(
+                `<div>
+                     Kozhikode 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_707c0965563a93129bc4702e9084cd32.setIcon(icon_4e3f4914d06615861858c250db6f5a5c);
+            
+    
+            var marker_e1ee56784c158bd15a64c3eb154d7ef7 = L.marker(
+                [8.4882267, 76.947551],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_5e725305c6e6820afd13760a92899c01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15b6df8c4b3ef96379426522e084c01d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f03606eaa96e7fb851d0741dd99eeb4d = $(`<div id="html_f03606eaa96e7fb851d0741dd99eeb4d" style="width: 100.0%; height: 100.0%;">Trivandrum </div>`)[0];
+                popup_15b6df8c4b3ef96379426522e084c01d.setContent(html_f03606eaa96e7fb851d0741dd99eeb4d);
+            
+        
+
+        marker_e1ee56784c158bd15a64c3eb154d7ef7.bindPopup(popup_15b6df8c4b3ef96379426522e084c01d)
+        ;
+
+        
+    
+    
+            marker_e1ee56784c158bd15a64c3eb154d7ef7.bindTooltip(
+                `<div>
+                     Trivandrum 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e1ee56784c158bd15a64c3eb154d7ef7.setIcon(icon_5e725305c6e6820afd13760a92899c01);
+            
+    
+            var marker_a78c185241452daa40e85f73d8273481 = L.marker(
+                [10.0869959, 77.0600915],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_2df784d760d6f21e7f58e3b8c63b2ebb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c45f4cd763c4658e51ad0f56d1150e67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9ffb30b54a2d54e1a8972bce7ba7169 = $(`<div id="html_d9ffb30b54a2d54e1a8972bce7ba7169" style="width: 100.0%; height: 100.0%;">Munnar </div>`)[0];
+                popup_c45f4cd763c4658e51ad0f56d1150e67.setContent(html_d9ffb30b54a2d54e1a8972bce7ba7169);
+            
+        
+
+        marker_a78c185241452daa40e85f73d8273481.bindPopup(popup_c45f4cd763c4658e51ad0f56d1150e67)
+        ;
+
+        
+    
+    
+            marker_a78c185241452daa40e85f73d8273481.bindTooltip(
+                `<div>
+                     Munnar 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a78c185241452daa40e85f73d8273481.setIcon(icon_2df784d760d6f21e7f58e3b8c63b2ebb);
+            
+    
+            var marker_552eb2bbb7c3f5914a050ae49dfb6508 = L.marker(
+                [9.5804995, 77.181142],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_c63c2367a12e8332315309024d24dc20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a38f3d818456a5cc9925519219d8193f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d97d9442a9f51e27a69ebbabf51ea446 = $(`<div id="html_d97d9442a9f51e27a69ebbabf51ea446" style="width: 100.0%; height: 100.0%;">Thekkady </div>`)[0];
+                popup_a38f3d818456a5cc9925519219d8193f.setContent(html_d97d9442a9f51e27a69ebbabf51ea446);
+            
+        
+
+        marker_552eb2bbb7c3f5914a050ae49dfb6508.bindPopup(popup_a38f3d818456a5cc9925519219d8193f)
+        ;
+
+        
+    
+    
+            marker_552eb2bbb7c3f5914a050ae49dfb6508.bindTooltip(
+                `<div>
+                     Thekkady 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_552eb2bbb7c3f5914a050ae49dfb6508.setIcon(icon_c63c2367a12e8332315309024d24dc20);
+            
+    
+            var marker_72fe7fc31b629676cf00159bef82106d = L.marker(
+                [9.8667272, 76.9656604],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_45c52c491e2511639c8fa85675e115d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e90423bd6d0bf14bf90f826c07a80047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1fca7c01199634e080cb274dcd3ef71 = $(`<div id="html_b1fca7c01199634e080cb274dcd3ef71" style="width: 100.0%; height: 100.0%;">Periyar </div>`)[0];
+                popup_e90423bd6d0bf14bf90f826c07a80047.setContent(html_b1fca7c01199634e080cb274dcd3ef71);
+            
+        
+
+        marker_72fe7fc31b629676cf00159bef82106d.bindPopup(popup_e90423bd6d0bf14bf90f826c07a80047)
+        ;
+
+        
+    
+    
+            marker_72fe7fc31b629676cf00159bef82106d.bindTooltip(
+                `<div>
+                     Periyar 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72fe7fc31b629676cf00159bef82106d.setIcon(icon_45c52c491e2511639c8fa85675e115d1);
+            
+    
+            var marker_a8a9c7bb93cdbba7bac82373e0c90c0c = L.marker(
+                [9.9361285, 76.2982904],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_9a5b37ccf7046901eb885174ecf7a3e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53dfa2c7ce9b38daee0dbf3bce235cc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6127725076eaa548bba6d2737e6a8f2 = $(`<div id="html_c6127725076eaa548bba6d2737e6a8f2" style="width: 100.0%; height: 100.0%;">Thevara </div>`)[0];
+                popup_53dfa2c7ce9b38daee0dbf3bce235cc6.setContent(html_c6127725076eaa548bba6d2737e6a8f2);
+            
+        
+
+        marker_a8a9c7bb93cdbba7bac82373e0c90c0c.bindPopup(popup_53dfa2c7ce9b38daee0dbf3bce235cc6)
+        ;
+
+        
+    
+    
+            marker_a8a9c7bb93cdbba7bac82373e0c90c0c.bindTooltip(
+                `<div>
+                     Thevara 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a8a9c7bb93cdbba7bac82373e0c90c0c.setIcon(icon_9a5b37ccf7046901eb885174ecf7a3e2);
+            
+    
+            var marker_a4c17cb8f45d37de7ba5fffe5f8323f8 = L.marker(
+                [8.7342288, 76.7257086],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_138c45ff7248858301799c32e3e5625e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8b85ef0752398fa230b6803b6ee7b83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32b336eb302d785fd305b1d36c6ca374 = $(`<div id="html_32b336eb302d785fd305b1d36c6ca374" style="width: 100.0%; height: 100.0%;">Varkala </div>`)[0];
+                popup_d8b85ef0752398fa230b6803b6ee7b83.setContent(html_32b336eb302d785fd305b1d36c6ca374);
+            
+        
+
+        marker_a4c17cb8f45d37de7ba5fffe5f8323f8.bindPopup(popup_d8b85ef0752398fa230b6803b6ee7b83)
+        ;
+
+        
+    
+    
+            marker_a4c17cb8f45d37de7ba5fffe5f8323f8.bindTooltip(
+                `<div>
+                     Varkala 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a4c17cb8f45d37de7ba5fffe5f8323f8.setIcon(icon_138c45ff7248858301799c32e3e5625e);
+            
+    
+            var marker_2d13d5152cf30ca52323d2552765c7d2 = L.marker(
+                [-30.065, 151.8844444],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_444612afd8a7c1eca40c0487821a74bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f0aef0e72f371cffd28fdbd3fb59c0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_320758ab3bc6c081f887b674d45fb25c = $(`<div id="html_320758ab3bc6c081f887b674d45fb25c" style="width: 100.0%; height: 100.0%;">Backwater </div>`)[0];
+                popup_9f0aef0e72f371cffd28fdbd3fb59c0a.setContent(html_320758ab3bc6c081f887b674d45fb25c);
+            
+        
+
+        marker_2d13d5152cf30ca52323d2552765c7d2.bindPopup(popup_9f0aef0e72f371cffd28fdbd3fb59c0a)
+        ;
+
+        
+    
+    
+            marker_2d13d5152cf30ca52323d2552765c7d2.bindTooltip(
+                `<div>
+                     Backwater 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d13d5152cf30ca52323d2552765c7d2.setIcon(icon_444612afd8a7c1eca40c0487821a74bc);
+            
+    
+            var marker_ba558a41115b10172303cf1c023679e9 = L.marker(
+                [9.5949953, 76.4302599],
+                {
+}
+            ).addTo(map_2c921e9a3648ede3afd28c5bb52d4013);
+        
+    
+            var icon_6082dce98107eae16f86839937b9593f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caba558d9b0a1216b0360cf001fb20fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32fbc82014def2a9493e86e4b907967a = $(`<div id="html_32fbc82014def2a9493e86e4b907967a" style="width: 100.0%; height: 100.0%;">Kumarakom</div>`)[0];
+                popup_caba558d9b0a1216b0360cf001fb20fa.setContent(html_32fbc82014def2a9493e86e4b907967a);
+            
+        
+
+        marker_ba558a41115b10172303cf1c023679e9.bindPopup(popup_caba558d9b0a1216b0360cf001fb20fa)
+        ;
+
+        
+    
+    
+            marker_ba558a41115b10172303cf1c023679e9.bindTooltip(
+                `<div>
+                     Kumarakom
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba558a41115b10172303cf1c023679e9.setIcon(icon_6082dce98107eae16f86839937b9593f);
+            
+</script>
+</html>
